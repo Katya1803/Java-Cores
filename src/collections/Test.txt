@@ -1,0 +1,22 @@
+Đề bài:
+
+Viết một chương trình Java sử dụng các cấu trúc dữ liệu khác nhau trong Java Collections Framework để quản lý danh sách sinh viên. Chương trình cần đáp ứng các yêu cầu sau:
+
+Tạo một lớp Student:
+
+Các thuộc tính: id (int), name (String), age (int).
+Cung cấp các phương thức getter và setter cho các thuộc tính.
+Override các phương thức toString(), equals(), và hashCode().
+Tạo một lớp StudentManager:
+
+Sử dụng ArrayList, LinkedList, HashSet, TreeSet, HashMap, và TreeMap để lưu trữ danh sách sinh viên.
+Cung cấp các phương thức:
+addStudent(Student student): Thêm một sinh viên vào danh sách.
+removeStudent(int studentId): Xóa một sinh viên khỏi danh sách dựa trên id.
+getStudent(int studentId): Lấy thông tin của một sinh viên dựa trên id.
+listStudents(): Liệt kê tất cả các sinh viên trong danh sách.
+sortStudentsByName(): Sắp xếp danh sách sinh viên theo tên.
+sortStudentsByAge(): Sắp xếp danh sách sinh viên theo tuổi.
+Tạo lớp CollectionsExample:
+
+Phương thức run(): Tạo một số sinh viên và sử dụng lớp StudentManager để quản lý danh sách sinh viên, kiểm tra các phương thức thêm, xóa, lấy thông tin, liệt kê, và sắp xếp sinh viên.
