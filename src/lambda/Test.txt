@@ -1,0 +1,22 @@
+Đề bài:
+
+Viết một chương trình Java sử dụng Lambda Expressions để quản lý danh sách sản phẩm trong một cửa hàng trực tuyến. Chương trình cần đáp ứng các yêu cầu sau:
+
+Tạo một lớp Product:
+
+Các thuộc tính: id (int), name (String), price (double), category (String).
+Cung cấp các phương thức getter và setter cho các thuộc tính.
+Override các phương thức toString(), equals(), và hashCode().
+Tạo một danh sách sản phẩm:
+
+Khởi tạo danh sách với các sản phẩm khác nhau.
+Sử dụng Lambda Expressions để thực hiện các thao tác sau:
+
+Lọc các sản phẩm theo danh mục.
+Tính tổng giá của các sản phẩm trong một danh mục cụ thể.
+Tăng giá của tất cả các sản phẩm lên 10%.
+Sắp xếp danh sách sản phẩm theo giá tăng dần.
+In ra danh sách các sản phẩm đã được sắp xếp.
+Tạo lớp LambdaExample:
+
+Phương thức run(): Thực hiện các thao tác trên danh sách sản phẩm bằng cách sử dụng Lambda Expressions.
