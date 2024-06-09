@@ -1,0 +1,33 @@
+Đề bài:
+
+Viết một chương trình Java để kiểm tra tính hợp lệ của các dữ liệu đầu vào khác nhau bằng cách sử dụng biểu thức chính quy (regex). Chương trình cần đáp ứng các yêu cầu sau:
+
+Kiểm tra tính hợp lệ của địa chỉ email:
+
+Địa chỉ email phải tuân theo định dạng tiêu chuẩn, ví dụ: user@example.com.
+Kiểm tra tính hợp lệ của số điện thoại:
+
+Số điện thoại phải bao gồm 10 chữ số, có thể có dấu gạch ngang hoặc dấu chấm giữa các nhóm số, ví dụ: 123-456-7890 hoặc 123.456.7890.
+Kiểm tra tính hợp lệ của mã bưu điện (ZIP code):
+
+Mã bưu điện có thể là 5 chữ số hoặc 5 chữ số theo sau bởi dấu gạch ngang và 4 chữ số, ví dụ: 12345 hoặc 12345-6789.
+Kiểm tra tính hợp lệ của URL:
+
+URL phải tuân theo định dạng tiêu chuẩn, ví dụ: http://example.com hoặc https://www.example.com/path?query=param.
+Kiểm tra tính hợp lệ của địa chỉ IP:
+
+Địa chỉ IP phải tuân theo định dạng IPv4, bao gồm bốn nhóm số từ 0 đến 255, ví dụ: 192.168.0.1.
+Yêu cầu triển khai:
+
+Lớp RegexValidator:
+
+Thuộc tính: Các biểu thức chính quy (regex) cho từng loại dữ liệu.
+Phương thức:
+boolean isValidEmail(String email): Kiểm tra email có hợp lệ không.
+boolean isValidPhoneNumber(String phoneNumber): Kiểm tra số điện thoại có hợp lệ không.
+boolean isValidZipCode(String zipCode): Kiểm tra mã bưu điện có hợp lệ không.
+boolean isValidURL(String url): Kiểm tra URL có hợp lệ không.
+boolean isValidIPAddress(String ipAddress): Kiểm tra địa chỉ IP có hợp lệ không.
+Lớp RegexExample:
+
+Phương thức run(): Tạo một số dữ liệu mẫu và sử dụng lớp RegexValidator để kiểm tra tính hợp lệ của chúng.

@@ -1,0 +1,21 @@
+Đề bài:
+
+Viết một chương trình Java sử dụng Generics để thực hiện các thao tác trên một tập hợp các đối tượng khác nhau. Chương trình cần đáp ứng các yêu cầu sau:
+
+Tạo một lớp Pair:
+
+Lớp này lưu trữ một cặp giá trị (first và second) có thể là bất kỳ kiểu dữ liệu nào.
+Cung cấp các phương thức để lấy và đặt giá trị của cặp này.
+Tạo một lớp GenericMethods:
+
+Cung cấp một phương thức swap để hoán đổi vị trí của hai phần tử trong một mảng.
+Cung cấp một phương thức printArray để in các phần tử của một mảng bất kỳ.
+Tạo một lớp BoundedTypeParameter:
+
+Cung cấp một phương thức calculateSum để tính tổng của một mảng các số (có thể là Integer, Double, Float, v.v.).
+Cung cấp một phương thức compare để so sánh hai đối tượng và trả về đối tượng lớn hơn.
+Tạo lớp GenericExample:
+
+Tạo và sử dụng các đối tượng của lớp Pair.
+Sử dụng các phương thức của lớp GenericMethods.
+Sử dụng các phương thức của lớp BoundedTypeParameter.
