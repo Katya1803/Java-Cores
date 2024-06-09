@@ -1,0 +1,22 @@
+Đề bài
+Tạo một hệ thống quản lý thư viện đơn giản với các yêu cầu sau:
+
+Lớp Book:
+
+Các thuộc tính: id (int), title (String), author (String), isAvailable (boolean).
+Phương thức: getter và setter cho các thuộc tính, phương thức toString() để hiển thị thông tin sách.
+
+
+
+Lớp Library:
+
+Thuộc tính: Danh sách các sách (List<Book>).
+Phương thức:
+addBook(Book book): Thêm một cuốn sách vào thư viện.
+removeBook(int bookId): Xóa một cuốn sách khỏi thư viện dựa vào id.
+borrowBook(int bookId): Mượn một cuốn sách (đánh dấu sách là không có sẵn nếu sách tồn tại và có sẵn).
+returnBook(int bookId): Trả lại một cuốn sách (đánh dấu sách là có sẵn nếu sách tồn tại).
+listBooks(): Liệt kê tất cả các cuốn sách trong thư viện.
+Lớp OOPExample:
+
+Phương thức run(): Tạo một số sách và thực hiện các chức năng trên để kiểm tra hệ thống quản lý thư viện.
