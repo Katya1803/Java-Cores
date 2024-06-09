@@ -1,7 +1,7 @@
 package a.example;
 
-import collections.ConcurrencyExample;
-import concurrency.CollectionsExample;
+import collections.CollectionsExample;
+import concurrency.ConcurrencyExample;
 import generics.GenericsExample;
 import lambda.LambdaExample;
 import oops.OOPExample;
