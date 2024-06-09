@@ -1,0 +1,31 @@
+Đề bài:
+
+Viết một chương trình Java sử dụng các công cụ đồng thời để quản lý một cửa hàng trực tuyến với các đơn hàng và sản phẩm. Chương trình cần đáp ứng các yêu cầu sau:
+
+Tạo một lớp Product:
+
+Các thuộc tính: id (int), name (String), price (double), stock (int).
+Cung cấp các phương thức getter và setter cho các thuộc tính.
+Override các phương thức toString(), equals(), và hashCode().
+Tạo một lớp Order:
+
+Các thuộc tính: orderId (int), productId (int), quantity (int).
+Cung cấp các phương thức getter và setter cho các thuộc tính.
+Override các phương thức toString().
+Tạo một lớp InventoryManager:
+
+Sử dụng một ConcurrentHashMap<Integer, Product> để lưu trữ các sản phẩm.
+Cung cấp các phương thức:
+addProduct(Product product): Thêm một sản phẩm vào kho.
+removeProduct(int productId): Xóa một sản phẩm khỏi kho.
+updateStock(int productId, int quantity): Cập nhật số lượng sản phẩm trong kho.
+getProduct(int productId): Lấy thông tin sản phẩm dựa trên id.
+Tạo một lớp OrderProcessor:
+
+Sử dụng một BlockingQueue<Order> để quản lý các đơn hàng.
+Cung cấp các phương thức:
+placeOrder(Order order): Đặt một đơn hàng vào hàng đợi.
+processOrders(): Xử lý các đơn hàng trong hàng đợi.
+Tạo lớp ConcurrencyExample:
+
+Phương thức run(): Tạo một số sản phẩm và đơn hàng, sử dụng InventoryManager và OrderProcessor để quản lý chúng trong một môi trường đồng thời.
