@@ -1,0 +1,23 @@
+Đề bài:
+
+Viết một chương trình Java để quản lý và lưu trữ thông tin khách hàng sử dụng serialization và file I/O. Chương trình cần đáp ứng các yêu cầu sau:
+
+Tạo một lớp Customer:
+
+Các thuộc tính: id (int), name (String), email (String), balance (double).
+Cung cấp các phương thức getter và setter cho các thuộc tính.
+Override các phương thức toString().
+Implement Serializable interface để cho phép lớp này được serialized.
+Tạo một lớp CustomerManager:
+
+Sử dụng một danh sách (ArrayList<Customer>) để lưu trữ thông tin khách hàng.
+Cung cấp các phương thức:
+addCustomer(Customer customer): Thêm một khách hàng vào danh sách.
+removeCustomer(int customerId): Xóa một khách hàng khỏi danh sách dựa trên id.
+getCustomer(int customerId): Lấy thông tin của một khách hàng dựa trên id.
+listCustomers(): Liệt kê tất cả các khách hàng trong danh sách.
+saveToFile(String filename): Lưu danh sách khách hàng vào một file.
+loadFromFile(String filename): Tải danh sách khách hàng từ một file.
+Tạo lớp SerializationExample:
+
+Phương thức run(): Tạo một số khách hàng và sử dụng lớp CustomerManager để quản lý và lưu trữ chúng.

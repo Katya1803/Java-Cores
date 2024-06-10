@@ -6,6 +6,7 @@ import generics.GenericsExample;
 import lambda.LambdaExample;
 import oops.OOPExample;
 import regex.RegexExample;
+import SerializationAndFileIO.SerializationExample;
 
 public enum ExampleOption {
     CONCURRENCY(1, "Concurrency", new ConcurrencyExample()),
@@ -14,7 +15,8 @@ public enum ExampleOption {
     LAMBDA(4, "Lambda", new LambdaExample()),
     OOP(5, "OOP", new OOPExample()),
     REGEX(6, "Regex", new RegexExample()),
-    EXIT(7, "Thoát", null);
+    SERIALIZATION(7, "Serialization and File I/O", new SerializationExample()),
+    EXIT(8, "Thoát", null);
 
     private final int optionNumber;
     private final String description;
